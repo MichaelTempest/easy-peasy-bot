@@ -1,7 +1,7 @@
 {
-  "name": "easy-peasy-bot",
+  "name": "ooh-bot",
   "version": "1.0.0",
-  "description": "The awesomest bot evar.",
+  "description": "The bot to tell you who is on out of hours.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -15,17 +15,17 @@
     "slack",
     "bot"
   ],
-  "author": "D.E. Goodman-Wilson",
+  "author": "M.Tempest",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DEGoodmanWilson/easy-peasy-bot-app/issues"
+    "url": "https://github.com/MichaelTempest/easy-peasy-bot-app/issues"
   },
-  "homepage": "https://github.com/DEGoodmanWilson/easy-peasy-bot-app#readme",
+  "homepage": "https://github.com/MichaelTempest/easy-peasy-bot-app#readme",
   "engines": {
     "node": "5.1.1"
   },
   "dependencies": {
-    "botkit": "0.2.2",
+    "botkit": "^0.6.16",
     "botkit-storage-mongo": "^1.0.2",
     "mongodb": "^1.4.39"
   }
